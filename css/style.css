@@ -882,19 +882,24 @@ ol {
 }
 
 .featured-bg {
-	width: calc(50% - 156px);
-	float: left;
-	height: 100%;
-	left: 0;
-	right: 0;
-	position: absolute;
+	width: calc(50% - 56px);
+   float: left;
+   height: 100%;
+   left: 0;
+   right: 0;
+   position: absolute;
+   background-size: 80%; 
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-color: black;
 }
 
 .featured-box {
 	float: right;
-	width: calc(50% + 156px);
-	background: #fff;
+	width: calc(50% + 56px);
+	background: #9213136c;
 	padding: 100px 50px 130px 79px;
+	height: 100%;
 }
 
 .featured-box .text-box {
