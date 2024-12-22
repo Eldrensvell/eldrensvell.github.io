@@ -1555,13 +1555,14 @@ ol {
 
 .contact-text p {
 	line-height: 1.9;
-	color: #68647d;
+	color: #b3b1bb;
 	margin-bottom: 50px;
 }
 
 .cont-info {
 	overflow: hidden;
 	margin-bottom: 20px;
+	color: #fff;
 }
 
 .cont-info .ci-icon {
@@ -1574,6 +1575,27 @@ ol {
 	overflow: hidden;
 	font-size: 16px;
 	font-weight: 500;
+	color: #fff;
+}
+
+.contact-page .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-text {
+    flex: 1;
+    margin-right: 20px; 
+	color: white;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* ----------------
