@@ -713,6 +713,8 @@ ol {
 	float: left;
 	margin-right: 17px;
 	overflow: hidden;
+	width: 75px;
+	height: 100%;
 }
 
 .trending-widget .tw-text .tw-meta {
@@ -723,7 +725,7 @@ ol {
 }
 
 .trending-widget .tw-text .tw-meta a {
-	color: #b01ba5;
+	color: #1094d6;
 }
 
 .trending-widget .tw-text h5 {
@@ -820,7 +822,7 @@ ol {
 }
 
 .latest-comments .lc-item .tw-text a {
-	color: #b01ba5;
+	color: #1094d6;
 }
 
 .latest-comments .lc-item .tw-text span {
@@ -1090,7 +1092,7 @@ ol {
 }
 
 .site-breadcrumb span {
-	color: #c313b7;
+	color: #d61010;
 }
 
 /* --------------
@@ -1495,6 +1497,8 @@ ol {
 
 .big-blog-item .blog-thumbnail {
 	margin-bottom: 30px;
+	width: 855px;
+	height: 100%;
 }
 
 .big-blog-item .blog-content .top-meta {
