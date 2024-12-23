@@ -474,14 +474,23 @@ ol {
 }
 
 .hero-slider .owl-nav {
-	margin-top: -24px;
-	display: block;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%); /* Center the nav vertically */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space out the buttons */
 }
 
-.hero-slider .owl-nav .owl-next {
-	position: absolute;
-	top: 50%;
-	right: 100px;
+.hero-slider .owl-nav .owl-next,
+.hero-slider .owl-nav .owl-prev {
+    position: relative;
+    margin: 3%; 
+    height: 50px; 
+    width: 50px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
 
 .hero-item {
@@ -660,45 +669,55 @@ ol {
 }
 
 .blog-item {
-	display: flex;
-	align-items: flex-start; /* Align items at the start of the container */
-	margin-bottom: 20px; /* Add space between blog items */
+    display: flex;
+    flex-direction: column; /* Default to column for mobile */
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 .blog-thumb {
-	margin-right: 20px; /* Add space between the image and text */
-	flex-shrink: 0; /* Prevent the image from shrinking */
+    margin-bottom: 10px; /* Space below the image on mobile */
+    flex-shrink: 0;
 }
 
 .blog-thumb img {
-	max-width: 300px; /* Adjust the image size as needed */
-	height: auto;
-	display: block; /* Ensure the image is displayed as a block element */
+    max-width: 300px; /* Ensure images are responsive */
+    height: auto;
+    display: block;
 }
 
 .blog-item .text-box {
-	overflow: hidden;
+    overflow: hidden;
+    padding: 10px; /* Padding for readability */
+    color: #fff; /* Ensure text color is visible */
+}
+
+.blog-item .text-box h3 {
+    margin: 0; /* Remove default margin for h3 */
 }
 
 .blog-item .text-box p {
-	margin-bottom: 42px;
+    margin-bottom: 20px; /* Adjust margin for better spacing */
 }
 
 .widget-item {
-	margin-bottom: 85px;
+    margin-bottom: 85px;
 }
 
-.widget-item:last-child {
-	margin-bottom: 0;
-}
+@media (min-width: 768px) {
+    .blog-item {
+        flex-direction: row; /* Row layout for larger screens */
+        align-items: flex-start; /* Align items at the start */
+    }
 
-.widget-item .widget-title {
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-style: italic;
-	padding-left: 38px;
-	margin-bottom: 48px;
+    .blog-thumb {
+        margin-right: 20px; /* Space between image and text on desktop */
+        margin-bottom: 0; /* Remove bottom margin for desktop */
+    }
+
+    .blog-item .text-box {
+        flex: 1; /* Allow text box to take up remaining space */
+    }
 }
 
 .trending-widget .tw-item {
@@ -1010,6 +1029,7 @@ ol {
 .footer-section .container {
 	position: relative;
 	padding: 60px 15px 25px;
+	
 }
 
 .footer-left-pic {
