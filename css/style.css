@@ -404,8 +404,8 @@ ol {
 	-webkit-transition: all 0.4s;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
-	-webkit-box-shadow: 2px 7px 20px rgba(0, 0, 0, 0.4);
-	box-shadow: 2px 7px 20px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 2px 7px 20px rgba(104, 6, 6, 0.4);
+	box-shadow: 2px 7px 20px rgba(102, 12, 12, 0.4);
 }
 
 .main-menu li .sub-menu li {
@@ -414,7 +414,7 @@ ol {
 
 .main-menu li .sub-menu li a {
 	display: block;
-	color: #000;
+	color: #570808;
 	margin-right: 0;
 	padding: 8px 30px;
 }
@@ -1724,15 +1724,15 @@ ol {
 	}
 	.slicknav_menu {
 		display: block;
-		background: #081624;
+		background: #390b0b;
 	}
 	.slicknav_btn {
 		margin-right: 10px;
-		background: #3a3a3a;
+		background: #9f0d0d;
 	}
 	.slicknav_nav a:hover,
 	.slicknav_nav .slicknav_row:hover {
-		background: #25394c;
+		background: #c02121;
 		color: #fff;
 	}
 	.hero-item h2 {
