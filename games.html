@@ -51,28 +51,8 @@
         </div>
         <section style="margin-top:0;">
             <h1>Our Games</h1>
-            <div class="games-list">
-                <button class="game-card" onclick="window.location.href='games/troh.html'">
-                    <img src="images/Caroussel/TROH.jpg" alt="The Rise of Hraesvelg">
-                    <div>
-                        <h3>The Rise of Hraesvelg</h3>
-                        <p>An ambitious open world adventure game currently in development.</p>
-                    </div>
-                </button>
-                <button class="game-card" onclick="window.location.href='games/screwup.html'">
-                    <img src="images/Caroussel/ScrewUp.jpg" alt="Screw Up!">
-                    <div>
-                        <h3>Screw Up!</h3>
-                        <p>A fast-paced parkour game made for a game jam.</p>
-                    </div>
-                </button>
-                <button class="game-card" onclick="window.location.href='games/cutout.html'">
-                    <img src="images/Caroussel/Cutout.jpg" alt="Cutout">
-                    <div>
-                        <h3>Cutout</h3>
-                        <p>A puzzle/exploration game created during a game jam.</p>
-                    </div>
-                </button>
+            <div class="games-list" id="games-list">
+                
             </div>
         </section>
     </main>
@@ -80,5 +60,9 @@
         &copy; 2025 EldrEnSvell. All rights reserved.
     </footer>
     <script src="js/burger-menu.js"></script>
+    <script src="js/games.js"></script>
+    <script>
+        loadGames();
+    </script>
 </body>
 </html>

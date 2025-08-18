@@ -15,6 +15,11 @@
     padding: 1.5rem;
     gap: 2rem;
 }
+.news-article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(255, 111, 97, 0.15);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
 .news-article-img {
     width: 120px;
     height: 120px;

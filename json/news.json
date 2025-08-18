@@ -1,0 +1,23 @@
+[
+  {
+    "image": "images/Caroussel/TROH.jpg",
+    "alt": "TROH News",
+    "title": "Hraesvelg is lurking...",
+    "desc": "Discover <strong>The Rise of Hraesvelg</strong>, our in-development Open world game!",
+    "link": "games/troh.html"
+  },
+  {
+    "image": "images/Caroussel/Cutout.jpg",
+    "alt": "Cutout News",
+    "title": "Cutout Released",
+    "desc": "Our new puzzle game <strong>Cutout</strong> is now available! You can try it out on Itch.io!",
+    "link": "games/cutout.html"
+  },
+  {
+    "image": "images/Caroussel/ScrewUp.jpg",
+    "alt": "ScrewUp News",
+    "title": "ScrewUp! Released",
+    "desc": "<strong>ScrewUp!</strong>, a GameJam vertical platformer is now out on Itch.io!",
+    "link": "games/screwup.html"
+  }
+]
