@@ -62,18 +62,39 @@
                     <li>Explore this immersive story and discover the lore of this world</li>
                 </ul>
             </div>
-            <div class="game-single-screenshot">
-                <img src="../images/Caroussel/TROH.jpg" alt="The Rise of Hraesvelg Screenshot">
+            <div class="game-single-screenshot" data-layout="mosaic">
+                <img src="../images/Caroussel/TROH.jpg" alt="TROH Main">
+                <img src="../images/games/troh-1.png" alt="TROH 1">
+                <img src="../images/games/troh-2.png" alt="TROH 2">
             </div>
+
+            <!-- Images -->
+            <!-- <div class="game-single-screenshot" data-layout="single">
+                <img src="path/to/your/image.jpg" alt="Description">
+            </div>
+            <div class="game-single-screenshot" data-layout="mosaic">
+                <img src="path/to/your/main-image.jpg" alt="Main screenshot">
+                <img src="path/to/your/second-image.jpg" alt="Second screenshot">
+                <img src="path/to/your/third-image.jpg" alt="Third screenshot">
+            </div> -->
+
             <div class="game-single-status">
                 <h2>Development Status</h2>
                 <p>The game is currently in active development. Follow us for updates, behind-the-scenes content, and early access opportunities!</p>
             </div>
         </section>
     </main>
+    
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <img id="modalImage" class="modal-content" alt="Modal Image">
+    </div>
+    
     <footer>
         &copy; 2025 EldrEnSvell. All rights reserved.
     </footer>
     <script src="../js/burger-menu.js"></script>
+    <script src="../js/image-modal.js"></script>
 </body>
 </html>

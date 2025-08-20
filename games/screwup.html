@@ -63,18 +63,39 @@
                     <li>Dodge the traps of the collapsing tower</li>
                 </ul>
             </div>
-            <div class="game-single-screenshot">
-                <img src="../images/Caroussel/ScrewUp.jpg" alt="Screw Up! Screenshot">
+            <div class="game-single-screenshot" data-layout="mosaic">
+                <img src="../images/Caroussel/ScrewUp.jpg" alt="Screw Up! Main">
+                <img src="../images/games/screwup-1.png" alt="Screw Up! 1">
+                <img src="../images/games/screwup-2.png" alt="Screw Up! 2">
             </div>
+
+            <!-- Images -->
+            <!-- <div class="game-single-screenshot" data-layout="single">
+                <img src="path/to/your/image.jpg" alt="Description">
+            </div>
+            <div class="game-single-screenshot" data-layout="mosaic">
+                <img src="path/to/your/main-image.jpg" alt="Main screenshot">
+                <img src="path/to/your/second-image.jpg" alt="Second screenshot">
+                <img src="path/to/your/third-image.jpg" alt="Third screenshot">
+            </div> -->
+            
             <div class="game-single-link">
                 <p>The game is available for free on <strong>Itch.io</strong>, feel free to check it out!</p>
                 <a href="https://cerrad-las-sopas.itch.io/screw-up" target="_blank" class="game-single-link-btn">Play on Itch.io</a>
             </div>
         </section>
     </main>
+    
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <img id="modalImage" class="modal-content" alt="Modal Image">
+    </div>
+    
     <footer>
         &copy; 2025 EldrEnSvell. All rights reserved.
     </footer>
     <script src="../js/burger-menu.js"></script>
+    <script src="../js/image-modal.js"></script>
 </body>
 </html>
