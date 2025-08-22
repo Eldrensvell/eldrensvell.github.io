@@ -210,9 +210,7 @@ main > p, main > ul, main > ol, main > div, main > section:not(.about-section) p
         outline: none;
         box-shadow: none;
     }
-    .navbar-burger span,
-    .navbar-burger span:before,
-    .navbar-burger span:after {
+    .navbar-burger span {
         display: block;
         position: absolute;
         width: 28px;
@@ -220,17 +218,28 @@ main > p, main > ul, main > ol, main > div, main > section:not(.about-section) p
         background: #ff6f61;
         border-radius: 2px;
         transition: all 0.3s;
-        left: 4px;
-    }
-    .navbar-burger span {
         top: 16px;
     }
     .navbar-burger span:before {
         content: '';
+        display: block;
+        position: absolute;
+        width: 28px;
+        height: 4px;
+        background: #ff6f61;
+        border-radius: 2px;
+        transition: all 0.3s;
         top: -10px;
     }
     .navbar-burger span:after {
         content: '';
+        display: block;
+        position: absolute;
+        width: 28px;
+        height: 4px;
+        background: #ff6f61;
+        border-radius: 2px;
+        transition: all 0.3s;
         top: 10px;
     }
     .navbar-menu {
