@@ -19,5 +19,12 @@
     "title": "Cutout",
     "desc": "A puzzle/exploration game created during a game jam.",
     "link": "games/cutout.html"
+  },
+  {
+    "image": "images/Caroussel/TNTBW.jpg",
+    "alt": "Try not to be weird",
+    "title": "Try not to be weird",
+    "desc": "A dark \"puzzle\" focused on social adaptation made for the GGJ26",
+    "link": "games/tntbw.html"
   }
 ]
