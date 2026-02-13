@@ -17,7 +17,14 @@
     "image": "images/Caroussel/ScrewUp.jpg",
     "alt": "ScrewUp News",
     "title": "ScrewUp! Released",
-    "desc": "<strong>ScrewUp!</strong>, a GameJam vertical platformer is now out on Itch.io!",
+    "desc": "<strong>ScrewUp!</strong>, a GameJam vertical platformer, is now out on Itch.io!",
     "link": "games/screwup.html"
+  },
+  {
+    "image": "images/Caroussel/TNTBW.jpg",
+    "alt": "Try not to be weird News",
+    "title": "Try not to be weird Released",
+    "desc": "<strong>Try not to be weird</strong>, a dark \"puzzle\" game made for the Global Game Jam 2026, is now out on Itch.io!",
+    "link": "games/tntbw.html"
   }
 ]
