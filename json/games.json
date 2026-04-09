@@ -7,6 +7,13 @@
     "link": "games/troh.html"
   },
   {
+    "image": "images/Caroussel/EchoesInTheDark.jpg",
+    "alt": "Echoes in the Dark",
+    "title": "Echoes in the Dark",
+    "desc": "A liminal, exploration-horror game.",
+    "link": "games/echoesinthedark.html"
+  },
+  {
     "image": "images/Caroussel/ScrewUp.jpg",
     "alt": "Screw Up!",
     "title": "Screw Up!",
