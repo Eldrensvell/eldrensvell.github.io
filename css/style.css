@@ -29,7 +29,7 @@ main {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
     padding-left: 2rem;
 }
@@ -38,6 +38,9 @@ h2 {
 }
 h3 {
     padding-left: 2rem;
+}
+p {
+    font-size: 1.3rem;
 }
 .cta-btn {
     display: inline-block; /* Changed from block */

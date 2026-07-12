@@ -99,10 +99,11 @@
 }
 .game-single-section h1 {
     text-align: center;
+    font-size: 2.8rem;
 }
 .game-single-section .game-single-lead {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin-bottom: 2rem;
 }
 .game-single-overview, .game-single-status {
@@ -116,6 +117,7 @@
     color: #ff6f61;
 }
 .game-single-overview ul {
+    font-size: 1.2rem;
     margin-top: 1.5rem;
     padding-left: 1.5rem;
 }
